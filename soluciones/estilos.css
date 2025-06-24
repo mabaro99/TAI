@@ -1,0 +1,60 @@
+.resumenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.resumen-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.correcta {
+    color: green;
+}
+.incorrecta {
+    color: red;
+}
+.no-respondida {
+    color: orange;
+}
+
+.grid-bloques {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.bloque-columna {
+    flex: 1;
+    min-width: 200px;
+}
+
+.bloque-columna p {
+    margin: 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.button_slide {
+    color: darkgreen;
+    border: 2px solid lightgreen;
+    border-radius: 0px;
+    padding: 15px 27px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 lightgreen;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 lightgreen;
+    color: darkgreen;
+}
