@@ -32,6 +32,7 @@
         <button type="button" onclick="window.location.href='examenes/rojo.php';" class="button_slide slide_right">ROJO</button>
         <button type="button" onclick="window.location.href='examenes/verde.php';" class="button_slide slide_right">VERDE</button>
         <button type="button" onclick="window.location.href='examenes/amarillo.php';" class="button_slide slide_right">AMARILLO</button>
+        <button type="button" onclick="window.location.href='examenes/violeta.php';" class="button_slide slide_right">VIOLETA</button>
     </div>
 </body>
 </html>
